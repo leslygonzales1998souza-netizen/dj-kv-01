@@ -1,0 +1,167 @@
+/* CONFIGURAÇÕES GERAIS */
+body {
+    margin: 0;
+    background: #050505;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.wrap {
+    max-width: 900px;
+    margin: auto;
+    padding: 28px 18px;
+}
+
+/* SEÇÃO HERO (CABEÇALHO) */
+.hero {
+    padding: 70px 0 45px;
+    border-bottom: 1px solid #222;
+}
+
+.tag {
+    color: #ff174f;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 76px;
+    line-height: .85;
+    margin: 14px 0;
+}
+
+h1 b {
+    color: #f00045;
+}
+
+.sub {
+    color: #bbb;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* MENU DE NAVEGAÇÃO */
+nav {
+    position: sticky;
+    top: 0;
+    background: #050505ee;
+    padding: 14px 0;
+    border-bottom: 1px solid #222;
+    z-index: 2;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* SEÇÕES E TEXTOS */
+section {
+    padding: 50px 0;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.title span {
+    color: #f00045;
+}
+
+.muted-text {
+    color: #999;
+}
+
+.contact-text {
+    color: #aaa;
+}
+
+/* GRID E CARDS */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.card {
+    background: #101010;
+    border: 1px solid #292929;
+    border-radius: 14px;
+    padding: 20px;
+}
+
+.num {
+    color: #f00045;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card h3 {
+    font-size: 17px;
+    line-height: 1.25;
+}
+
+.card p {
+    color: #999;
+    font-size: 13px;
+}
+
+/* PLAYER DE ÁUDIO */
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* BOTÕES */
+.btn {
+    display: inline-block;
+    background: #f00045;
+    color: #fff;
+    padding: 14px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 13px;
+    margin: 8px 8px 0 0;
+    transition: opacity 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.outline {
+    background: #111;
+    border: 1px solid #f00045;
+}
+
+/* CONTAINER DE CONTATO */
+.contact {
+    border: 1px solid #f00045;
+    border-radius: 15px;
+    padding: 28px;
+    background: #100006;
+}
+
+/* RODAPÉ */
+footer {
+    color: #666;
+    border-top: 1px solid #222;
+    padding: 25px 0;
+    font-size: 12px;
+}
+
+/* RESPONSIVIDADE (CELULAR) */
+@media(max-width: 700px) {
+    h1 {
+        font-size: 58px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
